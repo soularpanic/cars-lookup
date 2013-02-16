@@ -8,7 +8,7 @@ class cfgm_josh {
   var $template_integration = false;
 
   function cfgm_josh() {
-    $this->directory = DIR_FS_CATALOG_MODULES . 'payment/';
+    $this->directory = DIR_FS_CATALOG_MODULES . 'josh/';
     $this->title = 'Josh Title!';
   }
 }
