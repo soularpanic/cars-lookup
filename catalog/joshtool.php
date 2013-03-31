@@ -11,10 +11,11 @@ require(DIR_WS_INCLUDES . 'template_top.php');
 
   <div id="carSelectContainer">
   <div id="carMakeContainer">
-  <?php include('make_lookup.php'); ?>
+    <?php include('make_lookup.php'); ?>
   </div>
   <div id="carModelContainer"> </div>
   <div id="carYearContainer"> </div>
+  <div id="productsContainer"> </div>
 </div>
 <?php
 require(DIR_WS_INCLUDES . 'template_bottom.php');
